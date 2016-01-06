@@ -1,0 +1,24 @@
+{
+  "name": "localiz4tion-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for download translations",
+  "main": "index.js",
+  "entry_point": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "localization",
+    "translation",
+    "internationalization"
+  ],
+  "bin": {
+    "l4n": "./index.js"
+  },
+  "author": "Dennis Mortensen",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^2.1.4",
+    "download": "^4.4.3"
+  }
+}

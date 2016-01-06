@@ -1,0 +1,7 @@
+{
+    "token" : "your-api-token",
+    "destination" : "./",
+    "overwrite" : true,
+    "format" : "json",
+    "project" : "568486809d8c05a9cc81b330" 
+}
