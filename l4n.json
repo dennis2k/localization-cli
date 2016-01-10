@@ -1,7 +1,1 @@
-{
-    "token" : "your-api-token",
-    "destination" : "./",
-    "overwrite" : true,
-    "format" : "json",
-    "project" : "568486809d8c05a9cc81b330" 
-}
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImRlbSIsImFkbWluIjp0cnVlLCJjb250cmlidXRvciI6dHJ1ZSwiYWNjb3VudF9pZCI6IjU2MWMyYjRiZTRiMDc4OWFlMTg3M2FmNyIsInVzZXJfaWQiOiI1NjAwODQzZGU0YjBkM2I1YWNjNDU2MGIiLCJ1c2VybmFtZSI6ImRlbm5pczJrIiwicHJvamVjdHMiOltdLCJpYXQiOjE0NTIyMDIzNTgsImV4cCI6MTQ1OTk3ODM1OH0.9vphyYFe8OBW5shVM8dSmXgoqXriDc7AufU71BKOeS8","project":"568edbe9f0d9e386d0ae5129","format":"iosstring","destination":"./"}

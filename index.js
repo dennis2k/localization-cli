@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-
 var fs = require('fs');
 var Download = require('download');
 var commandLineArgs = require('command-line-args');
- 
+var prompt = require('prompt');
+
 var cli = commandLineArgs([
   { name: 'token', alias: 't', type: String },
   { name: 'destination', alias : 'd', type: String },
@@ -13,6 +13,38 @@ var cli = commandLineArgs([
   { name: 'config_file', alias: 'c', type: String }
 ])
 
+if(process.argv.length > 2) {
+    if(process.argv[2] == "init") {
+            prompt.start();
+
+            //
+            // Get two properties from the user: username and email
+            //
+            prompt.get(['token','project','destination','format'], function (err, result) {
+                if(err) {
+                    console.log("Error occured")
+                    process.exit()
+                }
+                var inputs = {
+                    token : result.token,
+                    project : result.project,
+                    format : result.format,
+                    destination : result.destination
+                }
+                
+                fs.writeFile("./l4n.json",JSON.stringify(inputs), function(err) {
+                    if(err) {
+                        console.log("Error occured while creating file")
+                        process.exit()
+                    }
+                    console.log("Config file created !");
+                }); 
+            });
+    }
+}
+
+if(process.argv.length <= 2 || (process.argv.length > 2 && process.argv[2] != "init")) {
+    
 //Parse input params
 var args = cli.parse();
 
@@ -49,3 +81,5 @@ new Download({mode: '755', extract : true})
         .dest(config.destination)
         .run();
 
+   
+}
