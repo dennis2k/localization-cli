@@ -1,6 +1,6 @@
 {
-  "name": "localiz4tion-cli",
-  "version": "1.0.0",
+  "name": "l4n",
+  "version": "1.1.0",
   "description": "CLI tool for download translations",
   "main": "index.js",
   "entry_point": "index.js",
