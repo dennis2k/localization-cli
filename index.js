@@ -2,12 +2,12 @@
 
 let init = false;
 process.argv.forEach((val, index) => {
-  if(val === "init") 
+  if(val === "init")
       init = true;
 });
 
 if(init) 
     require("./init");
 else
-    require("./export")
+    require("./export");
 
