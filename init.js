@@ -4,15 +4,15 @@ const prompt = require('prompt');
 let schema = {
     properties: {
       token: {
-        message: 'API token from your account',
+        message: 'API token',
         required: true
       },
       project: {
-        message: 'Project id'
+        message: 'Project id',
         required: true
       },
-      project: {
-        message: 'Format of the output'
+      format: {
+        message: 'Output format (json, android, csv, iosstrings, xliff, java, msresx, php, po)',
         required: true,
         default: "json"
       },
