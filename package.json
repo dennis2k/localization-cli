@@ -18,8 +18,8 @@
   "author": "Dennis Mortensen",
   "license": "ISC",
   "dependencies": {
-    "command-line-args": "^2.1.4",
-    "download": "^4.4.3",
-    "prompt": "^0.2.14"
+    "command-line-args": "3.0.5",
+    "download": "5.0.2",
+    "prompt": "1.0.0"
   }
 }

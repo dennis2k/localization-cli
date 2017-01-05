@@ -1,1 +1,6 @@
-{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImRlbSIsImFkbWluIjp0cnVlLCJjb250cmlidXRvciI6dHJ1ZSwiYWNjb3VudF9pZCI6IjU2MWMyYjRiZTRiMDc4OWFlMTg3M2FmNyIsInVzZXJfaWQiOiI1NjAwODQzZGU0YjBkM2I1YWNjNDU2MGIiLCJ1c2VybmFtZSI6ImRlbm5pczJrIiwicHJvamVjdHMiOltdLCJpYXQiOjE0NTIyMDIzNTgsImV4cCI6MTQ1OTk3ODM1OH0.9vphyYFe8OBW5shVM8dSmXgoqXriDc7AufU71BKOeS8","project":"568edbe9f0d9e386d0ae5129","format":"iosstring","destination":"./"}
+{
+    "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN0aW5hcm4rMUBnbWFpbC5jb20iLCJhZG1pbiI6dHJ1ZSwiY29udHJpYnV0b3IiOmZhbHNlLCJhY2NvdW50X2lkIjoiNTZmMTI1ZTZkODFkZGE5M2YzZGI5NTk2IiwidXNlcl9pZCI6IjU2ZjEyNWU2ZDgxZGRhOTNmM2RiOTU5NyIsImlhdCI6MTQ4MzU3MjM2OSwiZXhwIjoxNDg0MTc3MTY5fQ.sWeMRplym9LtiU1QOh4kBjZRXygyMXwhzDNjQrbaHLc",
+    "destination" : "./",
+    "format" : "json",
+    "project" : "56f126b2d81dda93f3db9598" 
+}
