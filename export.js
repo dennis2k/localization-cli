@@ -31,7 +31,7 @@ if (!config.format) {
     process.exit();
 }
 
-let route = ["http://epic.localiz4tion:8080/api/v1/projects/", config.project, "/export/", config.format, "?token=", config.token];
+let route = ["http://epic.localiz4tion.com:8080/api/v1/projects/", config.project, "/export/", config.format, "?token=", config.token];
 download(route.join(""), config.destination, { mode: '755', extract: true })
     .then(() => console.log("Files downloaded & extracted"))
     .catch(err => {
