@@ -30,8 +30,8 @@ if (!config.format) {
     console.error("Missing 'format' property in config file");
     process.exit();
 }
-
-let route = ["http://epic.localiz4tion.com:8080/api/v1/projects/", config.project, "/export/", config.format, "?token=", config.token];
+const baseRoute = config.apiUrl || "http://app.easylocalizer.com";
+let route = [baseRoute + "/api/v1/projects/", config.project, "/export/", config.format, "?token=", config.token];
 download(route.join(""), config.destination, { mode: '755', extract: true })
     .then(() => console.log("Files downloaded & extracted"))
     .catch(err => {

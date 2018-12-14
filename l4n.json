@@ -1,0 +1,6 @@
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVfdGltZSI6MTU0NDYxNzgwOTY0MCwiYWRtaW4iOnRydWUsImFjY291bnRfaWQiOiI1YzEwZmY1MWJlY2UzZjE4OGZjZDc1MzkiLCJpYXQiOjE1NDQ2MTc4MDksImV4cCI6MjQwODYxNzgwOX0.xBA5ITddM1nXTjctJEztd-TOG3rAysDH1QqujSPLiGs",
+    "destination": "./public/assets/i18n",
+    "format": "json",
+    "project": "5c10ff66bece3f188fcd753b"
+}
